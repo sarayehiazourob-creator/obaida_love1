@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#b51232">
+<title>حب حياتي الأول والأخير ❤️</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&family=Amiri:wght@400;700&display=swap" rel="stylesheet">
+<style>
+:root{--red:#b51232;--deep:#7f0b25;--pink:#fff0f3;--soft:#ffe0e7;--ink:#4c1724;--white:#fff}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:linear-gradient(145deg,#fff 0%,#fff7f8 55%,#ffe9ee 100%);color:var(--ink);font-family:'Cairo',sans-serif;min-height:100vh;overflow-x:hidden}
+button,input{font:inherit}button{cursor:pointer}
+#hearts{position:fixed;inset:0;pointer-events:none;overflow:hidden;z-index:0}.heart{position:absolute;bottom:-40px;color:#e23b5c;opacity:.22;animation:floatUp linear infinite}
+@keyframes floatUp{to{transform:translateY(-115vh) rotate(360deg);opacity:0}}
+main{position:relative;z-index:1}.page{display:none;min-height:100vh;padding:32px 18px 55px;max-width:900px;margin:auto;animation:fade .45s ease}.page.active{display:flex;flex-direction:column;align-items:center;justify-content:center}
+@keyframes fade{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:none}}
+h1,h2,h3,p{margin-top:0}.eyebrow{color:var(--red);font-weight:700;letter-spacing:.5px}.hero-title{font-size:clamp(2.2rem,8vw,4.5rem);line-height:1.35;color:var(--red);text-align:center;margin:10px 0}.subtitle{font-family:'Amiri',serif;font-size:1.5rem;text-align:center;color:#8d3448}
+.card{width:min(100%,760px);background:rgba(255,255,255,.91);border:1px solid #ffd0da;border-radius:28px;padding:clamp(22px,5vw,42px);box-shadow:0 18px 55px #9f17301a;text-align:center;margin:14px auto}
+.intro-message{font-size:1.08rem;line-height:2.2}.btn{border:0;border-radius:999px;padding:13px 27px;background:var(--red);color:white;font-weight:800;box-shadow:0 8px 20px #b5123233;transition:.2s}.btn:hover{transform:translateY(-2px);background:var(--deep)}.btn.secondary{background:white;color:var(--red);border:1px solid #e9a3b2;box-shadow:none}.btn:disabled{opacity:.4;cursor:not-allowed;transform:none}.actions{display:flex;gap:12px;justify-content:center;flex-wrap:wrap;margin-top:22px}.tiny{font-size:.85rem;color:#9c6672}.section-title{color:var(--red);font-size:clamp(1.8rem,6vw,2.7rem);text-align:center;margin-bottom:8px}.lead{text-align:center;line-height:2;color:#87515f}
+.photo-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin:22px 0}.photo-slot{min-height:180px;border-radius:22px;overflow:hidden;background:linear-gradient(135deg,#ffe0e7,#fff);border:1px dashed #df8b9e;display:flex;align-items:center;justify-content:center;color:#a94b60;font-size:.9rem;padding:10px}.photo-slot img{width:100%;height:100%;min-height:180px;object-fit:cover;display:block}.photo-slot.wide{grid-column:1/-1;min-height:230px}
+audio{width:min(100%,420px);margin:12px auto;display:block} .quiz-q{background:#fff7f8;border:1px solid #ffd6df;border-radius:18px;padding:16px;margin:12px 0;text-align:right}.quiz-q label{display:block;font-weight:700;margin-bottom:8px}.quiz-q input{width:100%;padding:12px;border:1px solid #e8a8b6;border-radius:12px;background:#fff;color:var(--ink);outline-color:var(--red)}.feedback{font-weight:700;min-height:28px;color:var(--red);margin-top:12px}
+.meter{height:17px;background:#ffe1e7;border-radius:99px;overflow:hidden;margin:20px 0}.meter span{display:block;height:100%;width:100%;background:linear-gradient(90deg,#f58ca2,#b51232);border-radius:99px}.percent{font-size:clamp(3rem,13vw,6rem);font-weight:800;color:var(--red);line-height:1.1}.reason-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:9px;width:100%;margin-top:20px}.reason{background:#fff7f8;border:1px solid #ffdae2;border-radius:14px;padding:12px;text-align:right;line-height:1.7;font-size:.9rem}.reason b{color:var(--red);margin-left:5px}
+.letter{font-family:'Amiri',serif;font-size:1.3rem;line-height:2.15;text-align:right;white-space:pre-line}.envelope{width:220px;height:145px;margin:25px auto;position:relative;background:#e95d78;border-radius:8px;cursor:pointer;box-shadow:0 12px 25px #a9163433;transition:.3s}.envelope:before{content:"";position:absolute;inset:0;background:#f58ca2;clip-path:polygon(0 0,50% 58%,100% 0);transform-origin:top;transition:.5s;z-index:2}.envelope:after{content:"❤️";position:absolute;left:calc(50% - 16px);top:52px;font-size:32px;z-index:3}.envelope.open:before{transform:rotateX(180deg)}.envelope-label{position:absolute;inset:auto 0 12px;text-align:center;color:white;font-weight:800;z-index:4}.future-list{display:grid;gap:12px;width:min(100%,650px)}.future-item{background:#fff;border:1px solid #ffd0da;border-radius:18px;padding:18px;text-align:right}.future-item h3{color:var(--red);margin:0 0 8px}.future-item p{line-height:2;margin:0}.locked{opacity:.65;background:#f9f0f2}.contract{text-align:right;line-height:2.15}.contract h3{color:var(--red);margin:18px 0 4px}.signatures{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:25px}.sign-box{background:#fff7f8;border:1px solid #ffd0da;border-radius:18px;padding:12px}.sign-box canvas{width:100%;height:130px;background:white;border:1px dashed #d58a9a;border-radius:12px;touch-action:none;display:block}.sign-box strong{display:block;color:var(--red);margin-bottom:8px}.sign-box button{margin-top:8px}.final-note{font-family:'Amiri',serif;font-size:1.5rem;color:var(--red);text-align:center;margin:25px 0}
+@media(max-width:560px){.photo-grid{grid-template-columns:1fr 1fr}.photo-slot{min-height:135px}.photo-slot img{min-height:135px}.reason-grid{grid-template-columns:1fr}.signatures{grid-template-columns:1fr}.page{padding:22px 13px 40px}.card{border-radius:22px}}
+
+.chat-gallery{margin:26px 0 8px}
+.gallery-heading{color:var(--red);font-size:1.35rem;margin:0 0 4px}
+.chat-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin-top:16px}
+.chat-memory{margin:0;background:#fff7f8;border:1px solid #ffd0da;border-radius:17px;padding:8px;overflow:hidden;box-shadow:0 7px 18px #9f173012}
+.chat-memory img{width:100%;height:auto;display:block;border-radius:11px}
+.chat-memory figcaption{font-size:.85rem;line-height:1.6;padding:9px 4px 3px;color:#8d3448}
+@media(max-width:560px){.chat-grid{grid-template-columns:1fr 1fr}.chat-memory figcaption{font-size:.78rem}}
+
+</style>
+</head>
+<body>
+<div id="hearts"></div>
+<main>
+<section class="page active" id="p1">
+  <div class="card">
+    <div class="eyebrow">إلى عبيدة، بكل الحب ❤️</div>
+    <h1 class="hero-title">حب حياتي<br>الأول والأخير</h1>
+    <div class="subtitle">حكاية صغيرة… معمولة مخصوص عشانك</div>
+    <p class="intro-message">هاد شي كتير بسيط حبيت أعمله بنفسي عشانك، وهاد ولا شي يا عمري قدام كل اللي بتعمله عشاني، بس حبيت أعملك شي مخصوص وأنا اللي أعمله إلك، وتفضل ذكرى حلوة بينا ❤️</p>
+    <div class="actions"><button class="btn" onclick="openSurprise()">Open Surprise ❤️</button></div>
+    <p class="tiny">اضغط وافتح المفاجأة… وخلي الأغنية تبدأ مع أول خطوة</p>
+  </div>
+</section>
+
+<section class="page" id="p2">
+  <div class="card">
+    <div class="eyebrow">لحظاتنا الحلوة</div><h2 class="section-title">ربنا يخليك لقلبي ❤️</h2>
+    <p class="lead">في ناس بتيجي في حياتنا وتخلّي للحكاية معنى… وإنت من أجمل الصدف.</p>
+    <audio id="song" controls loop preload="metadata"><source src="assets/song.mp3" type="audio/mpeg">متصفحك لا يدعم تشغيل الصوت.</audio>
+    <p class="tiny">الأغنية المطلوبة: «ربنا يخليك لقلبي» — كارمن سليمان</p>
+
+    <div class="chat-gallery">
+      <h3 class="gallery-heading">كلام منك… بحب أرجع أقرأه ❤️</h3>
+      <p class="tiny">احتفظتلك هنا بكلامك اللي بيفضل قريب من قلبي</p>
+      <div class="chat-grid">
+        <figure class="chat-memory"><img src="assets/chat1.jpeg" alt="رسالة حب من عبيدة رقم 1" loading="lazy"><figcaption>رسالة فيها دعوة حلوة من القلب</figcaption></figure>
+        <figure class="chat-memory"><img src="assets/chat2.jpeg" alt="رسالة حب من عبيدة رقم 2" loading="lazy"><figcaption>بحبك أوي يا سارة ❤️</figcaption></figure>
+        <figure class="chat-memory"><img src="assets/chat3.jpeg" alt="رسالة حب من عبيدة رقم 3" loading="lazy"><figcaption>أنا هشيل عنك كل هم</figcaption></figure>
+        <figure class="chat-memory"><img src="assets/chat4.jpeg" alt="رسالة حب من عبيدة رقم 4" loading="lazy"><figcaption>لو روحي أخسرها مقابل أضل معك</figcaption></figure>
+        <figure class="chat-memory"><img src="assets/chat5.jpeg" alt="رسالة حب من عبيدة رقم 5" loading="lazy"><figcaption>الحياة إنتِ يا سارة</figcaption></figure>
+        <figure class="chat-memory"><img src="assets/chat6.jpeg" alt="رسالة حب من عبيدة رقم 6" loading="lazy"><figcaption>يا رب خذ الوجع وعطيني إياه وريح قلبها</figcaption></figure>
+        <figure class="chat-memory"><img src="assets/chat7.jpeg" alt="رسالة حب من عبيدة رقم 7" loading="lazy"><figcaption>يفداكي الكون يروح قلبي</figcaption></figure>
+        <figure class="chat-memory"><img src="assets/chat8.jpeg" alt="رسالة حب من عبيدة رقم 8" loading="lazy"><figcaption>إنتِ كوكبي وحياتي وعمري ونبضي وروحي</figcaption></figure>
+        <figure class="chat-memory"><img src="assets/chat9.jpeg" alt="رسالة حب من عبيدة رقم 9" loading="lazy"><figcaption>إنتِ عمري… وديما بدي أكون جنبك</figcaption></figure>
+        <figure class="chat-memory"><img src="assets/chat10.jpeg" alt="رسالة حب من عبيدة رقم 10" loading="lazy"><figcaption>تعبت من البعد… نفسي نتقابل</figcaption></figure>
+      </div>
+    </div>
+    <div class="actions"><button class="btn" onclick="go(3)">يلا اختبرك 😌</button></div>
+  </div>
+</section>
+
+<section class="page" id="p3">
+ <div class="card">
+  <div class="eyebrow">نشوف ذاكرتك عاملة إيه 😂</div><h2 class="section-title">يلا اختبرك!</h2>
+  <p class="lead">جاوب على الأسئلة… سارة عارفة الإجابات، يا ترى إنت كمان؟ ❤️</p>
+  <div id="quiz">
+   <div class="quiz-q"><label>1. تاريخ تعارفنا؟</label><input data-answer="13/7/2025" placeholder="اكتب التاريخ"></div>
+   <div class="quiz-q"><label>2. أكتر أكلة بحبها؟</label><input data-answer="ورق العنب" placeholder="اكتب الأكلة"></div>
+   <div class="quiz-q"><label>3. أكتر لون بحبه؟</label><input data-answer="بينك" placeholder="اكتب اللون"></div>
+   <div class="quiz-q"><label>4. أكتر حاجة بحبها في الحياة؟</label><input data-answer="اشوفه مبسوط" placeholder="إيه هي؟"></div>
+   <div class="quiz-q"><label>5. يوم ميلادي؟</label><input data-answer="11/12" placeholder="اكتب اليوم والشهر"></div>
+   <div class="quiz-q"><label>6. أكتر حاجة بتزعلني منك؟</label><input data-answer="لما تسيبني" placeholder="كمّل الجملة"></div>
+  </div>
+  <div class="actions"><button class="btn" onclick="checkQuiz()">اعرف نتيجتك ❤️</button><button class="btn secondary" onclick="go(4)">كمّل المفاجأة</button></div>
+  <div class="feedback" id="quizResult"></div>
+ </div>
+</section>
+
+<section class="page" id="p4">
+ <div class="card">
+  <div class="eyebrow">سؤال مصيري جدًا 😂</div><h2 class="section-title">قدّيه بتحبني؟</h2>
+  <p class="lead">اختار النسبة بكل صراحة… مفيش إجابة غلط، بس في إجابة متوقعة.</p>
+  <div class="percent" id="percent">∞%</div><div class="meter"><span></span></div>
+  <p id="loveLine" class="letter" style="text-align:center">الحب ده خارج حدود النسب والحسابات… بس سارة ليها عندك دلع زيادة 😂❤️</p>
+  <div class="actions"><button class="btn" onclick="loveMeter()">اضغط عشان تعرف النسبة الحقيقية</button><button class="btn secondary" onclick="go(5)">١٠٠ سبب اخترتك عشانهم</button></div>
+ </div>
+</section>
+
+<section class="page" id="p5">
+ <div class="card">
+  <div class="eyebrow">مش هتكفّيهم صفحة واحدة…</div><h2 class="section-title">١٠٠ سبب خلّوني أختارك إنت ❤️</h2>
+  <p class="lead">وكل سبب فيهم وراه حكاية أو إحساس… ولسه في أسباب كتير بتتكتب كل يوم.</p>
+  <div class="reason-grid" id="reasons"></div>
+  <div class="actions"><button class="btn" onclick="go(6)">في رسالة مستنياك 💌</button></div>
+ </div>
+</section>
+
+<section class="page" id="p6">
+ <div class="card">
+  <div class="eyebrow">رسالة من قلبي ليك</div><h2 class="section-title">افتح الظرف يا عبودي 💌</h2>
+  <p class="lead">في كلام حبيت أسيبهولك… افتح الظرف عشان تقراه.</p>
+  <div class="envelope" id="mainEnvelope" onclick="openLetter()"><div class="envelope-label">إلى حبيبي</div></div>
+  <div id="mainLetter" class="letter" hidden>بحبك…
+
+الكلمة دي لما بقولها بحس إنها مش كفاية كأن جوايا مشاعر أكبر من أي حروف تتكتب أو تتقال، أنا مش بس بحبك، أنا متعلقة بيك بطريقة مش مفهومة بطريقة تخلي وجودك في حياتي فرق بين يوم عادي ويوم له معنى بين قلب مطمئن وقلب تائه.
+
+بحبك في تفاصيلك اللي يمكن غيري ما يلاحظهاش في صوتك لما بتتكلم في طريقتك لما تطمن عليا من غير ما أطلب في غيرتك اللي بتبان حتى لو بتحاول تخبيها، وفي خوفك عليا اللي بيخليني أحس إني أغلى حاجة عندك. كل حاجة فيك بتشدني ليك أكثر من اللي قبلها.
+
+أنا مش شايفاك شخص عادي في حياتي، أنت الحتة اللي قلبي بيرتاح فيها من تعب الدنيا، والملجأ اللي بفكر فيه قبل ما أنام وبعد ما أصحى. وجودك بيخليني أحس إن الدنيا أهدى، وإن أي حاجة صعبة بتبقى أهون طول ما أنت موجود.
+
+وأكثر حاجة موجعاني وحلوة في نفس الوقت إني كل ما أحبك أكثر بخاف أخسرك أكثر. بس برغم الخوف ده أنا متمسكة بيك، متمسكة بالحب اللي جوايا ليك كأنه أكبر من أي مسافة وأي وقت.
+
+أنا بحبك مش علشان سبب واحد.. أنا بحبك علشانك أنت، بكل اللي فيك، وبكل اللحظات اللي لسه جاية ومستنياك ❤️❤️❤️❤️❤️❤️🥹🥹🥹</div>
+  <div class="actions"><button class="btn" onclick="go(7)">رسائل من المستقبل ✨</button></div>
+ </div>
+</section>
+
+<section class="page" id="p7">
+ <div class="card">
+  <div class="eyebrow">رسائل تفتحها في وقتها</div><h2 class="section-title">رسائل المستقبل ❤️</h2>
+  <p class="lead">كل رسالة معمولة للحظة معينة… اختار اللي محتاج تقراها دلوقتي.</p>
+  <div class="future-list">
+   <article class="future-item"><h3>افتحها لما تشتاقلي</h3><p>لو فتحت الرسالة دي فأكيد في لحظة كنت محتاج تحس إني قريبة منك فيها عايزاك تعرف إن وجودك في حياتي مش مجرد شخص بحبه وخلاص أنت بقيت جزء من تفاصيل كتير في يومي من أول حاجة بفكر فيها لآخر حاجة بتيجي في بالي قبل ما أنام ولو المسافة بينا طولت أو اليوم كان صعب افتكر إن في قلب بيختارك وبيتمنى يكون جنبك في كل لحظة حلوة وصعبة وحشتني حتى في الأيام اللي بنكون فيها مع بعض ❤️</p></article>
+   <article class="future-item"><h3>افتحها لما تكون زعلان مني</h3><p>عارفة إننا مش دايمًا هنكون متفقين وإن ساعات كلامنا ممكن يزعل بعض بس عمري ما حبيت إن خلاف صغير ينسينا كل الحاجات الحلوة اللي بينا. أنا مش عايزة علاقتنا تكون مثالية أنا عايزاها حقيقية نعرف نسمع بعض ونفهم بعض ونرجع نختار بعض حتى بعد الأيام الصعبة متخليش الزعل يخليك تنسى إنك غالي عندي وإن وجودك في حياتي حاجة أنا متمسكة بيها 🫂❤️</p></article>
+   <article class="future-item"><h3>افتحها لما تكون تعبان وحاسس إن الدنيا كلها ضدك</h3><p>حبيبي ❤️ لو بتقرأ الرسالة دي فغالبًا أنت بتمر بيوم تقيل عليك وحاسس إن كل حاجة متلخبطة وإنك تعبت من كتر ما بتحاول ومن كتر ما بتشيل جواك حاجات مش بتحكيها لحد بس عايزاك تهدى شوية وتفتكر إنك مش مطالب تكون قوي طول الوقت ومش لازم كل حاجة تتحل النهارده ومش لازم تفضل تحارب مع كل حاجة حواليك خُد نفس وادي لنفسك فرصة ترتاح ومتقسايش على نفسك لمجرد إن في حاجات لسه موصلتلهاش. أنا فخورة بيك يا عبودي فخورة بكل مرة حاولت فيها حتى لو محدش شاف تعبك وبكل خطوة أخدتها حتى لو كانت صغيرة وبكل مرة قومت وكملت رغم إنك مكنتش في أحسن حالاتك. ونفسي لما الدنيا تضيق عليك متنساش إنك تستاهل كل حاجة حلوة وإن الأيام الصعبة مش هتفضل للأبد وإن لسه قدامك حاجات كتير حلوة مستنياك. ومتنساش إن في واحدة بتتمنى تشوفك مبسوط وناجح ومرتاح البال وبتفرح من قلبها لكل إنجاز بتعمله وبتؤمن بيك حتى في الأيام اللي أنت نفسك بتشك فيها في قدراتك. مش عايزاك تشيل كل حاجة لوحدك ولا تخبي تعبك ورا كلمة أنا كويس خد وقتك وارتاح واحكي لو حابب وافتكر إنك مش محتاج تثبت لأي حد إنك قوي طول الوقت. بحبك يا بوتي وبحب أشوفك بخير وبتمنى أكون دايمًا من الحاجات الحلوة اللي تخفف عنك مش تزيد عليك. ولحد ما الأيام الحلوة ترجع تضحكلك افتكر إنك غالي وإنك تستاهل راحة وفرحة قد كل التعب اللي عديت بيه ❤️🌍</p></article>
+   <article class="future-item"><h3>افتحها بعد سنة</h3><p>لعبودي في المستقبل مش عارفة وإحنا بنقرأ الرسالة دي هنكون وصلنا لفين ولا إيه الحاجات اللي اتغيرت في حياتنا بس عندي أمنية إننا نكون لسه بنضحك على نفس التفاصيل ولسه عندنا حكايات جديدة نحكيها لبعض أتمنى تكون حققت حاجات كتير كنت بتحلم بيها وأكون أنا كمان حققت أحلامي ونفضل نشجع بعض ونفرح لبعض ولو رجعنا بالزمن لليوم اللي بدأت فيه حكايتنا أتمنى نختار نعيشها من جديد بكل تفاصيلها ❤️</p></article>
+   <article class="future-item locked" id="anniversaryLetter"><h3>🔒 رسالة ذكرى تعارفنا — 13/7/2027</h3><p id="anniversaryText">الرسالة دي لسه مقفولة… هتفتح يوم ١٣ يوليو ٢٠٢٧ ❤️</p></article>
+  </div>
+  <div class="actions"><button class="btn" onclick="go(8)">عقد تجديد الحب 💍</button></div>
+ </div>
+</section>
+
+<section class="page" id="p8">
+ <div class="card">
+  <div class="eyebrow">وثيقة رسمية جدًا ومهمة جدًا 😂❤️</div><h2 class="section-title">عقد تجديد الحب</h2>
+  <div class="contract">
+   <p><strong>مقدمة العقد</strong><br>نتعهد نحن الطرفين، وبعد مرور كل هذه الأيام والذكريات والمواقف، بأن نمنح حكايتنا فرصة جديدة، وأن نختار بعضنا من جديد، ليس لأن الطريق كان دائمًا سهلًا، بل لأن ما بيننا يستحق أن نحافظ عليه.</p>
+   <h3>المادة الأولى: الاختيار</h3><p>أختارك في الأيام الحلوة والصعبة، وأتذكر دائمًا أن الحب مش مجرد كلام، لكنه مواقف واهتمام.</p>
+   <h3>المادة الثانية: الاهتمام</h3><p>ممنوع نستهين بتفاصيل بعض، ولا نخلي الانشغال ينسينا نسأل ونطمن ونسمع.</p>
+   <h3>المادة الثالثة: المصالحة</h3><p>ممنوع نخلي العناد يكسب على حساب حكايتنا، ونتعهد إننا نتكلم ونفهم بعض بدل ما نسيب الزعل يكبر.</p>
+   <h3>المادة الرابعة: الأحلام</h3><p>نتعهد نشجع بعض ونفرح بنجاحات بعض ونكون سند لبعض في تحقيق أحلامنا.</p>
+   <h3>المادة الخامسة: الدلال</h3><p>يحق لسارة طلب جرعة حب واهتمام ودلال في أي وقت، وعلى عبيدة التنفيذ دون تأجيل 😂❤️</p>
+   <h3>المادة السادسة: التجديد</h3><p>هذا العقد قابل للتجديد كل سنة، مع إضافة ذكريات وضحكات وأحلام جديدة.</p>
+  </div>
+  <p class="lead">وقّعوا هنا لتجديد العهد… كل واحد يكتب بصمته بإيده ❤️</p>
+  <div class="signatures">
+   <div class="sign-box"><strong>بصمة سارة ❤️</strong><canvas id="sigSara"></canvas><button class="btn secondary" onclick="clearCanvas('sigSara')">مسح التوقيع</button></div>
+   <div class="sign-box"><strong>بصمة عبيدة ❤️</strong><canvas id="sigObaida"></canvas><button class="btn secondary" onclick="clearCanvas('sigObaida')">مسح التوقيع</button></div>
+  </div>
+  <div class="actions"><button class="btn" onclick="window.print()">احفظوا العقد / اطبعوه ❤️</button><button class="btn secondary" onclick="go(1)">ارجع للبداية</button></div>
+  <div class="final-note">كل مرة هختارك من جديد… يا عبيدة ❤️</div>
+ </div>
+</section>
+</main>
+<script>
+const pages=[...document.querySelectorAll('.page')];
+function go(n){pages.forEach(p=>p.classList.remove('active'));document.getElementById('p'+n).classList.add('active');window.scrollTo({top:0,behavior:'smooth'});}
+function openSurprise(){go(2);const a=document.getElementById('song');a.play().catch(()=>{a.controls=true;});}
+function openLetter(){document.getElementById('mainEnvelope').classList.add('open');document.getElementById('mainLetter').hidden=false;}
+function checkQuiz(){
+ let inputs=[...document.querySelectorAll('#quiz input')],score=0;
+ inputs.forEach(i=>{let v=i.value.trim().toLowerCase().replace(/\s+/g,'');let a=i.dataset.answer.toLowerCase().replace(/\s+/g,'');if(v===a || (a==='بينك' && ['pink','بينك','وردي'].includes(v)) || (a==='اشوفه مبسوط' && ['اشوفه مبسوط','اشوفك مبسوط','اشوف عبيدة مبسوط'].includes(v)) || (a==='لما تسيبني' && ['لما تسيبني','لما تتركني','لما تسيبنى'].includes(v))){score++;i.style.borderColor='#36a66b'}else{i.style.borderColor='#d94b68'}});
+ document.getElementById('quizResult').textContent=`جبت ${score} من ${inputs.length} ❤️ ${score===6?'شطووور! واضح إنك مركز معايا 😍':'في شوية حاجات محتاجة مراجعة… عندك فرصة تعيد 😂'}`;
+}
+function loveMeter(){document.getElementById('percent').textContent='∞%';document.getElementById('loveLine').textContent='النسبة الرسمية: بتحبني لحد ما الآلة الحاسبة أعلنت استقالتها… وسارة عايزة زيادة برضه 😂❤️';}
+const reasons=["لأن وجودك بيخلّي الأيام العادية أحلى", "لأن ضحكتك من الحاجات اللي بتفرّح قلبي", "لأنك بتعرف تطمّني من غير كلام كتير", "لأنك بتخليني أحس إن في حد فاهمني", "لأن تفاصيلك الصغيرة غالية عندي", "لأن صوتك ليه مكانة خاصة عندي", "لأنك بتفرحني بحاجات يمكن تشوفها بسيطة", "لأنك بتعرف تخليني أبتسم وسط يوم طويل", "لأنك شخص ليه طابع مختلف في قلبي", "لأن وجودك بقى جزء من يومي", "لأنك بتخليني أستنى الحكايات اللي هتحكيهالي", "لأنك بتشاركني أحلامك", "لأن نجاحك بيفرحني من قلبي", "لأنك بتخليني أؤمن إن الحلو لسه جاي", "لأنك بتعرف تكون هادي وقت ما الدنيا تبقى زحمة", "لأنك بتخليني أحب التفاصيل", "لأنك بتفتكر حاجات صغيرة بتفرق معايا", "لأنك بتسأل عليا وده بيفرق", "لأنك بتخليني أحس إني مش لوحدي", "لأنك بتعرف تصالحني بطريقتك", "لأن بينا ذكريات محدش غيرنا يعرف معناها", "لأن أول حكايتنا لسه عزيزة على قلبي", "لأنك بقيت الشخص اللي أحب أحكيله يومي", "لأنك بتخلّي الضحك أسهل", "لأنك بتشجعني أكون أحسن", "لأنك عندك أحلام ونفسي أشوفك تحققها", "لأنك بتخليني فخورة بيك", "لأنك بتعرف تخلّي للحظة معنى", "لأنك بتفهم نظراتي أوقات", "لأنك بتعرف إن في تفاصيل صغيرة بتسعدني", "لأنك بتخليني أفتكر إن الحب اهتمام", "لأنك بتشاركني لحظاتنا الحلوة", "لأنك بتخليني أضحك من قلبي", "لأنك ليك مكانك اللي محدش ياخده", "لأنك بتعرف تسمعني", "لأنك بتخليني أتكلم من غير ما أخاف من الحكم عليا", "لأنك بتعرف تكون سند بكلمة", "لأنك بتخليني أفرح لفرحتك كأنها فرحتي", "لأنك بتخلّي المستقبل فيه حاجات نستناها", "لأنك بتعرف تفاجئني", "لأنك بتخليني أحب أعملك حاجات مخصوص", "لأنك بتستاهل مني كل ذكرى حلوة", "لأنك بتخليني أقدّر الصدف اللي جمعتنا", "لأنك بقيت جزء من دعواتي", "لأنك بتخليني أتمنى لك الخير دايمًا", "لأنك بتعرف تكون على طبيعتك معايا", "لأنك بتخلّي الكلام بينا له طعم تاني", "لأنك بتعرف تخليني أهدى", "لأنك بتخليني أفتكر إننا فريق واحد", "لأنك بتخلّي حتى المسافة أهون", "لأنك بتستحق حد يصدق فيك وأنا بصدق فيك", "لأنك بتعرف تفرحني من غير مناسبة", "لأنك بتخليني أفتخر بكل خطوة بتاخدها", "لأنك بتشاركني تفاصيلك", "لأنك بتخليني أكون نفسي", "لأنك بتعرف إن الاعتذار والمصالحة مهمين", "لأنك بتخليني أتعلم من كل موقف بينا", "لأنك بتخلّي للذكريات طعم", "لأنك بتعرف تضحكني حتى وأنا مكشرة", "لأنك بتخليني أحب أحتفظ بالصور والرسائل", "لأنك بتعرف تكون حنون بطريقتك", "لأنك بتخليني أتحمس للحاجات اللي جاية", "لأنك بتخلّي قلبي يفرح لما أشوف اسمك", "لأنك بتعرف تخلّي يومي ألطف", "لأنك بتخليني أحس بقيمة الاهتمام", "لأنك بتعرف تشاركني نجاحك وتعبك", "لأنك بتخليني أؤمن إننا نقدر نتعلم من خلافاتنا", "لأنك بتعرف ترجع الكلام الحلو بعد الزعل", "لأنك بتخليني أفتكر أول مرة اتكلمنا", "لأنك بتعرف تخلي للحب معنى في الأفعال", "لأنك بتخليني أتمنى أكون سبب في راحتك", "لأنك بتستحق التشجيع في كل خطوة", "لأنك بتخليني أحب أحتفل بيك", "لأنك بتعرف إن وجودك فارق", "لأنك بتخلّي أحلامك تهمني", "لأنك بتعرف تخليني أبتسم وأنا بفتكرك", "لأنك بتخلّي عندي حكايات أحب أرجعلها", "لأنك بتعرف تكون صريح معايا", "لأنك بتخليني أقدّر اللحظات الهادية", "لأنك بتعرف تخلّي الكلام البسيط ذكرى", "لأنك بتخليني أفرح لما تكون مبسوط", "لأنك بتخلّي قلبي يدعيلك من غير ما أحس", "لأنك بتعرف إننا مش لازم نبقى مثاليين عشان نحاول", "لأنك بتخليني أختار التفاهم بدل العناد", "لأنك بتعرف تخلّي الضحكة تعدّي الزعل", "لأنك بتخليني أحب فكرة إن لسه عندنا أيام كتير", "لأنك بتعرف تحوّل موقف صغير لذكرى", "لأنك بتخليني أفتخر بالشخص اللي أنت عليه", "لأنك بتعرف تخلّي وجودك مطمّن", "لأنك بتخليني أحب أكتبلك", "لأنك بتعرف إنك غالي عندي", "لأنك بتخلّي كل سنة معاك فرصة لذكريات جديدة", "لأنك بتخليني أتمنى نفضل نتعلم ونكبر سوا", "لأنك بتعرف تخلّي قلبي يختارك كل مرة", "لأنك أنت عبيدة، بكل تفاصيلك اللي بحبها", "لأن حكايتنا تستاهل نكمل نكتب فيها", "لأنك ببساطة الشخص اللي قلبي اختاره"];
+document.getElementById('reasons').innerHTML=reasons.map((r,i)=>`<div class="reason"><b>${i+1}.</b>${r}</div>`).join('');
+const unlock=new Date(2027,6,13,0,0,0);
+const annText=`حبيبي ❤️\nعارف إيه أكتر حاجة بحب أفتكرها؟ اليوم اللي اتعرفنا فيه أول مرة يمكن وقتها مكنتش أعرف إن الشخص اللي دخل حياتي بالصدفة هيبقى بعد كده من أقرب الناس لقلبي وإن الكلام العادي اللي بدأ بينا هيبقى وراه كل الذكريات والمواقف والتفاصيل اللي عشناها سوا. كل ما أرجع بذاكرتي لأول أيامنا بستغرب إزاي شخص كان غريب عني بقى بالشكل ده جزء من يومي وتفكيري وتفاصيلي. إزاي بقينا نعرف نضحك من كلمة ونزعل من موقف ونرجع نتصالح ونحكي لبعض عن حاجات يمكن محدش تاني يعرفها. أنا مش بقول إن كل أيامنا كانت مثالية ولا إننا عمرنا ما اختلفنا، بالعكس إحنا عشنا حاجات كتير وكل موقف فيهم علمني عنك وعن نفسي وعن معنى إن اتنين يفضلوا يحاولوا يفهموا بعض. بس وسط كل ده في حاجة واحدة عمرها ما اتغيرت عندي وهي إنك شخص ليه مكانة خاصة أوي في قلبي. يمكن لو رجع بيا الزمن لليوم ده مكنتش هعرف أتخيل إننا هنوصل لكل الحكايات دي وإن اسمك هيبقى مرتبط عندي بذكريات كتير بالشكل ده، بس أنا ممتنة إن طرقنا اتقابلت وإننا خدنا فرصتنا نعرف بعض ونعيش حكايتنا. كل سنة وأول معرفة جمعتني بيك بخير يا روحي، وكل سنة وإنت الشخص اللي لما أفتكر بداية حكايتنا أبتسم وأقول يا بخت الصدفة اللي عرفتني عليك. ولو في حاجة واحدة أتمنى تفضل معانا مهما عدت سنين فهي إننا مننساش إحنا بدأنا إزاي وقد إيه كان جميل إننا بقينا إحنا ❤️`;
+function updateAnniversary(){const el=document.getElementById('anniversaryLetter');if(new Date()>=unlock){el.classList.remove('locked');el.querySelector('h3').textContent='❤️ رسالة ذكرى تعارفنا';document.getElementById('anniversaryText').textContent=annText;} }
+updateAnniversary();
+function setupCanvas(id){const c=document.getElementById(id),ctx=c.getContext('2d');let drawing=false;function resize(){const r=c.getBoundingClientRect(),d=window.devicePixelRatio||1;c.width=r.width*d;c.height=130*d;ctx.scale(d,d);ctx.lineWidth=2.5;ctx.lineCap='round';ctx.strokeStyle='#9d1734';}resize();window.addEventListener('resize',()=>{const data=c.toDataURL();resize();let im=new Image();im.onload=()=>ctx.drawImage(im,0,0,c.width,c.height);im.src=data;});function pos(e){let r=c.getBoundingClientRect();let p=e.touches?e.touches[0]:e;return [p.clientX-r.left,p.clientY-r.top];}function start(e){e.preventDefault();drawing=true;let [x,y]=pos(e);ctx.beginPath();ctx.moveTo(x,y);}function move(e){if(!drawing)return;e.preventDefault();let [x,y]=pos(e);ctx.lineTo(x,y);ctx.stroke();}function end(){drawing=false;}c.addEventListener('pointerdown',start);c.addEventListener('pointermove',move);window.addEventListener('pointerup',end);}
+function clearCanvas(id){let c=document.getElementById(id);c.getContext('2d').clearRect(0,0,c.width,c.height);}
+setupCanvas('sigSara');setupCanvas('sigObaida');
+for(let i=0;i<18;i++){let h=document.createElement('span');h.className='heart';h.textContent=Math.random()>.5?'❤':'♥';h.style.left=Math.random()*100+'%';h.style.fontSize=(12+Math.random()*22)+'px';h.style.animationDuration=(9+Math.random()*12)+'s';h.style.animationDelay=(-Math.random()*15)+'s';document.getElementById('hearts').appendChild(h);}
+</script>
+</body></html>
